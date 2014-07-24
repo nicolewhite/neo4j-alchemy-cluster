@@ -1,5 +1,4 @@
 library(RNeo4j)
-library(igraph)
 
 # Establish connection to neo4j.
 neo4j = startGraph("http://localhost:7474/db/data/")
